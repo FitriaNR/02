@@ -690,7 +690,7 @@ let ceknye = await syncoffc.onWhatsApp(bnnd + `@s.whatsapp.net`)
 if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
 owner.push(bnnd)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
-syncoffcbotwhatsapp.reply(`Nᴏᴍᴇʀ ${bnnd} Sᴜᴅᴀʜ Bɪsᴀ Mᴇɴɢɢᴜɴᴀᴋᴀɴ SʏɴᴄOғғᴄ Bᴏᴛ`)
+syncoffcbotwhatsapp.reply(`Nᴏᴍᴇʀ ${bnnd} Sᴜᴅᴀʜ Bɪsᴀ Mᴇɴɢɢᴜɴᴀᴋᴀɴ Bᴏᴛ`)
 break
 case 'dela':
     if (!isGroup) return syncoffcbotwhatsapp.reply(`wajib dalam grup`)
