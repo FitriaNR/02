@@ -232,7 +232,7 @@ messageId: ""
 })
 }
 switch (command) {
-case 'menuvip': case 'vvip':{
+case 'menu': case 'vip':{
 jiren = ` 
   ⁅╸━━━━╺『LinuxSEC🔥』╸━━━━╺⁆
 
@@ -269,11 +269,11 @@ jiren = `
 ┃ ╰━━━━━━━━━━━━━━╯
 ⁅╸━━━━╺『ᴏᴛʜᴇʀ』╸━━━━╺●
 ┃ ╭━━━━━━━━━━━━━━╮
-┃ ┃◌. listpay
+┃ ┃◌. listpay | *SEMENTARA FITUR TIDAK AKTIF* 🚫
 ┃ ┃◌. stats
 ┃ ┃◌. sewa
 ┃ ┃◌. donasi 
-┃ ┃◌. sticker 
+┃ ┃◌. sticker | *SEMENTARA FITUR TIDAK AKTIF* 🚫
 ┃ ┃◌. menfess
 ┃ ╰━━━━━━━━━━━━━━╯
 ┃⟬𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())} ⟭
@@ -298,7 +298,7 @@ await syncoffc.sendMessage(syncoffcbotwhatsapp.chat, { audio: buffer, ptt: true,
             break
 case 'listbug':
 jiren = `
-╭╸━━━━╺『𝗕𝗨𝗚 𝗘𝗠𝗢𝗝𝗜』╸━━━━╺
+╭╸━━━━╺『𝗕𝗨𝗚 𝗘𝗠𝗢𝗝𝗜 *SEMENTARA FITUR TIDAK AKTIF* 🚫』╸━━━━╺
 ┃◌ 🌷 
 ┃◌ 🔥 
 ┃◌ 👑 
@@ -318,7 +318,7 @@ jiren = `
 ╰━━━━━━━━━━━━━━━━╾•
 
 
-╭╸━━━━╺『𝗕𝗨𝗚 𝗩𝗜𝗣』╸━━━━╺
+╭╸━━━━╺『𝗕𝗨𝗚 𝗩𝗜𝗣 *SEMENTARA FITUR TIDAK AKTIF* 🚫』╸━━━━╺
 ┃◌ bug-neko 
 ┃◌ bug-hentai
 ┃◌ bug-suhu 
@@ -357,7 +357,7 @@ jiren = `
 ╰━━━━━━━━━━━━━━━━╾•
 
 
-╭╸━━━━╺『𝗕𝗨𝗚 𝗚𝗖』╸━━━━╺
+╭╸━━━━╺『𝗕𝗨𝗚 𝗚𝗖 *SEMENTARA FITUR TIDAK AKTIF* 🚫』╸━━━━╺
 ┃◌ buggc 
 ┃◌ seranggc 
 ┃◌ santetgc 
@@ -365,7 +365,7 @@ jiren = `
 ┃◌ bejat 
 ╰━━━━━━━━━━━━━━━━╾•
 
-╭╸━━━━╺『𝗕𝗨𝗚 𝗢𝗪𝗡𝗘𝗥』╸━━━━╺
+╭╸━━━━╺『𝗕𝗨𝗚 𝗢𝗪𝗡𝗘𝗥 *SEMENTARA FITUR TIDAK AKTIF* 🚫』╸━━━━╺
 ┃◌ ZAL
 ┃◌ FY
 ╰━━━━━━━━━━━━━━━━╾•
@@ -430,14 +430,14 @@ case 'sc':
 syncoffcbotwhatsapp.reply('https://www.youtube.com/channel/UCOVW4A7rywiqR9Ud24WqrNw')
 break
 case 'pay': case 'qris': case 'payment': case 'dana': case 'gopay': {
-                syncoffc.sendMessage(syncoffcbotwhatsapp.chat, { image: { url: 'https://telegra.ph/file/b2b2452f1847bd647c50b.jpg' }, caption: `Hai Kak ${syncoffcbotwhatsapp.pushName}\n\n DANA: 083847718351\nGOPAY:  083847718351\nOVO: 085822305576 :\n\n` }, { quoted: syncoffcbotwhatsapp })
+                syncoffc.sendMessage(syncoffcbotwhatsapp.chat, { image: { url: 'https://telegra.ph/file/b2b2452f1847bd647c50b.jpg' }, caption: `Hai Kak ${syncoffcbotwhatsapp.pushName}\n\n DANA: 0895711499000\nGOPAY:  0895711499000\nOVO: - :\n\n` }, { quoted: syncoffcbotwhatsapp })
             }
             break
 case 'p': case 'oi':
-syncoffcbotwhatsapp.reply('Nani?')
+syncoffcbotwhatsapp.reply('sopankah ? chat dengaan kata P ?')
 break
 	    case 'donasi': case 'd': case 'd': case 'd': case 'donate': {
-                syncoffc.sendMessage(syncoffcbotwhatsapp.chat, { image: { url: 'https://telegra.ph/file/b2b2452f1847bd647c50b.jpg' }, caption: `Hai Kak ${syncoffcbotwhatsapp.pushName}\n\n DANA: 083847718351\n\n GOPAY:  083847718351\n\n MAU DONATE LAIN? QRISS :\n\n` }, { quoted: syncoffcbotwhatsapp })
+                syncoffc.sendMessage(syncoffcbotwhatsapp.chat, { image: { url: 'https://telegra.ph/file/b2b2452f1847bd647c50b.jpg' }, caption: `Hai Kak ${syncoffcbotwhatsapp.pushName}\n\n DANA: 0895711499000\n\n GOPAY:  0895711499000\n\n MAU DONATE LAIN? QRISS :\n\n` }, { quoted: syncoffcbotwhatsapp })
             }
             break
 case 'verify': case 'ban': case 'kenon': case 'logout':  {
@@ -488,25 +488,9 @@ cookie
 })
 var payload = String(res.data)
 if (payload.includes(`"payload":true`)) {
-syncoffcbotwhatsapp.reply(`FROM WhatsApp Support
-Hai,
- Terima kasih atas pesan Anda.
- Kami telah menonaktifkan akun WhatsApp Anda.  Ini berarti akun Anda untuk sementara dinonaktifkan dan akan dihapus secara otomatis dalam 30 hari jika Anda tidak mendaftarkan ulang akun tersebut.  Harap dicatat: Tim Dukungan Pelanggan WhatsApp tidak dapat menghapus akun Anda secara manual.
- Selama periode penonaktifan:
- • Kontak Anda di WhatsApp mungkin masih melihat nama dan gambar profil Anda. 
- • Setiap pesan yang mungkin dikirim oleh kontak Anda ke akun akan tetap dalam status tertunda hingga 30 hari.
- Jika Anda ingin mendapatkan kembali akun Anda, daftarkan ulang akun Anda sebagai secepatnya.  
- Daftar ulang akun Anda dengan memasukkan kode 6 digit, kode yang Anda terima melalui SMS atau panggilan telepon. Jika Anda mendaftar ulang
- pulihkan riwayat obrolan Anda di: Android |  iPhone.
- file, cadangan, atau riwayat panggilan dari akun yang dihapus.
- akun sebelum dihapus, Anda akan tetap berada di semua obrolan grup.  Anda akan memiliki opsi untuk memulihkan data Anda.  Pelajari caranya Jika Anda tidak mendaftarkan ulang akun Anda, akun tersebut mungkin akan dihapus dan proses ini tidak dapat dibatalkan.  Sayangnya, WhatsApp tidak dapat membantu Anda memulihkan obrolan, dokumen, media
- Catatan: Jika perangkat Anda hilang atau dicuri, sebaiknya hubungi penyedia seluler Anda untuk memblokir kartu SIM Anda sesegera mungkin.  Memblokir kartu SIM Anda mencegah orang lain mendaftar dan mengakses akun yang terkait dengan kartu SIM.
- Sumber daya terkait:
-  Untuk informasi lebih lanjut tentang penonaktifan akun pada ponsel yang hilang dan dicuri, silakan baca artikel ini.
-  Pelajari tentang akun yang dicuri di artikel ini.
- Jika Anda memiliki pertanyaan atau masalah lain, jangan ragu untuk menghubungi kami.  Kami akan dengan senang hati membantu!`)
+syncoffcbotwhatsapp.reply(`Whatsapp Target berashil ✅ di logout !!`)
 } else if (payload.includes(`"payload":false`)) {
-syncoffcbotwhatsapp.reply(`Terima kasih telah menghubungi kami. Kami akan menghubungi Anda kembali melalui email, dan itu mungkin memerlukan waktu hingga tiga hari kerja.`)
+syncoffcbotwhatsapp.reply(` 🚫 *Gagal !! Jeda 20 Menit dulu kak* `)
 } else syncoffcbotwhatsapp.reply(util.format(res.data))
 } catch (err) {reply(`${err}`)}
 } else syncoffcbotwhatsapp.reply('Masukkan nomor target!')
@@ -749,7 +733,7 @@ break
    case 'kill':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
            if (!isGroup) return syncoffcbotwhatsapp.reply(`wajib dalam grup`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -792,7 +776,7 @@ case 'santet':
     case 'bug-neko':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
            if (!isGroup) return syncoffcbotwhatsapp.reply(`wajib dalam grup`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -835,7 +819,7 @@ case 'dor':
   case 'bug-hentai':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
            if (!isGroup) return syncoffcbotwhatsapp.reply(`wajib dalam grup`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -1798,7 +1782,7 @@ case 'boom':
 case 'bug-suhu':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`Lu Siapa Kocak?`)
            if (!isGroup) return syncoffcbotwhatsapp.reply(`wajib dalam grup`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -1936,7 +1920,7 @@ case 'santetdia':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -3828,7 +3812,7 @@ case '🌷':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -4766,7 +4750,7 @@ case '🤡':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -5686,7 +5670,7 @@ case '🔥':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -6606,7 +6590,7 @@ case '🤓':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
@@ -7526,7 +7510,7 @@ case '🌷':
 case 'brutal':
 case 'bug-darkness':
          if (!itsMesyncoffc) return syncoffcbotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `ʙᴜɢ sᴜᴅᴀʜ ᴅɪᴋɪʀɪᴍ, ᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴊᴇᴅᴀ 5 ᴍᴇɴɪᴛ ⚠︎`
+        txts = `ʙᴜɢ *SEMENTARA TIDAK DAPAT DUGUNAKAN*⚠︎`
         syncoffcbotwhatsapp.reply(txts)
         
     
